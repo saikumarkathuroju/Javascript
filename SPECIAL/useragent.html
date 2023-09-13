@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <body>
+            <script>
+                var browserName="Safari";
+                var userAgent=navigator.userAgent;
+                if(userAgent.indexOf("chrome")>-1){
+                    browserName="Google chrome";                    
+                }else if(userAgent.indexOf("Firefox")>-1){
+                    browserName="Mozilla Firefox";                    
+                }else if(userAgent.indexOf("safari")>-1){
+                    browserName="Apple Safari";
+                }else if(userAgent.indexOf("opera")>-1||userAgent.indexOf("OPR")>-1){
+                    broserName="opera";
+                }else if(userAgent.indexOf("Edge")>-1){
+                    browserName="Microsoft Edge"
+                }else if(userAgent.indexOf("MSIE")>-1||userAgent.indexOf("Trident")>-1){
+                    browserName="Internet Explorer";
+                }else{
+                    browserName="unknown";
+                }
+                console.log("Browser Name:"+ browserName);
+            </script>
+        </body>
+    </head>
+</html>

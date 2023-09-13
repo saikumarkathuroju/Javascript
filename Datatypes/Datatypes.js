@@ -1,0 +1,15 @@
+var age=10;
+console.log(typeof age);
+console.log(age);
+var rating=10.5;
+console.log(typeof rating);
+console.log(rating);
+var isdone=true;
+console.log(typeof isdone);
+console.log(isdone);
+let H=0xff;
+console.log(typeof H);
+console.log(H);
+const E=1e2;
+console.log(typeof E);
+console.log(E);

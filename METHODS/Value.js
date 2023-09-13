@@ -1,0 +1,13 @@
+let num=[1,2,3,4,5,6];
+console.log("value of '5' in num", num[5]);
+let str=new Map();
+str.set('key1','value1');
+str.set('key2','value2');
+console.log(str.get('key1'));
+console.log(str.keys());
+let data= new Set();
+data.add(1);
+data.add(3);
+data.add(5);
+data.add(7);
+console.log(data.values());
